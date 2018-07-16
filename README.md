@@ -12,3 +12,11 @@ Just include the source file **instead** of the Permalink.Overlay like:
 -->
 <script src="/static/map/js/Permalink.NamedOverlay.js"></script>
 ```
+
+The following script demmonstrates using the Permalink control:
+
+```javascript
+        var permalink = new L.Control.Permalink({text: 'Permalink', layers: layers, useLocation: true });
+        map.addControl(permalink);
+ ```
+ 
